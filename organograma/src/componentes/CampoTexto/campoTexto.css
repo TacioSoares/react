@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campo-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+}
+.campo-texto > label {
+    font-weight: bolder;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.campo-texto input {
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.459);
+    max-width: 100%;
+    font-size: 18px;
+    padding: 24px;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.formulario form {
+    width: 100%;
+    padding: 36px 64px;
+    margin: 50px 0;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    background-color: #f2f2f2;
+}
