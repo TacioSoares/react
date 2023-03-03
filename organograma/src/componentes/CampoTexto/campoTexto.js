@@ -5,7 +5,7 @@ const CampoTexto = (props) => {
 
     //let valor = 'Tácio Soares'
 
-    const [valor, setValor] = useState('Tácio Soares')
+    const [valor, setValor] = useState('')
 
     const aoDigitar = (evento) => {
         props.aoAlterado(evento.target.value)
