@@ -48,7 +48,6 @@ function App() {
   const [colaboradores, setColaborador] = useState([])
 
   const aoNovoColaboradorAdd = (colaborador) => {
-    console.log(colaborador)
     setColaborador([...colaboradores, colaborador])
   }
 
@@ -62,7 +61,7 @@ function App() {
         nome={time.nome} 
         corPrimaria={time.corPrimaria} 
         corSecundaria={time.corSecundaria}
-        colaboradores={colaboradores} 
+        colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} 
       />)}
       
     </div>
